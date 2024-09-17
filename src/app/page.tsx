@@ -19,23 +19,23 @@ export default function Home() {
 		<div className="min-h-screen flex flex-col">
 			<header className="bg-white shadow-sm sticky top-0 z-50">
 				<div className="container mx-auto px-4 py-4 flex justify-between items-center">
-					<div className="text-2xl font-bold text-blue-600">ACME</div>
+					<div className="text-2xl font-bold text-primary">ACME</div>
 					<nav className="hidden md:flex items-center space-x-8">
 						{["First", "Second", "Third", "Fourth", "Fifth"].map((item) => (
 							<a
 								key={item}
 								href="#"
-								className="text-gray-600 hover:text-blue-600 transition duration-300"
+								className="text-gray hover:text-primary transition duration-300"
 							>
 								{item}
 							</a>
 						))}
-						<button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300">
+						<button className="bg-primary text-white px-4 py-2 rounded-md hover:bg-secondary transition duration-300">
 							Action
 						</button>
 					</nav>
 					<button
-						className="md:hidden text-gray-600 hover:text-blue-600 transition duration-300"
+						className="md:hidden text-gray hover:text-primary transition duration-300"
 						onClick={() => setIsMobileMenuOpen(true)}
 					>
 						<svg
@@ -74,7 +74,7 @@ export default function Home() {
 						<FeatureItem
 							icon={
 								<svg
-									className="w-12 h-12 text-blue-600"
+									className="w-12 h-12 text-primary"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -94,7 +94,7 @@ export default function Home() {
 						<FeatureItem
 							icon={
 								<svg
-									className="w-12 h-12 text-blue-600"
+									className="w-12 h-12 text-primary"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -114,7 +114,7 @@ export default function Home() {
 						<FeatureItem
 							icon={
 								<svg
-									className="w-12 h-12 text-blue-600"
+									className="w-12 h-12 text-primary"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -150,11 +150,11 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="w-full md:w-1/2 md:pl-12">
-							<h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-6 leading-tight">
+							<h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">
 								Long headline on two lines to turn your visitors into users and
 								achieve more
 							</h2>
-							<p className="text-xl text-gray-600 mb-8 leading-relaxed">
+							<p className="text-xl text-gray mb-8 leading-relaxed">
 								Separated they live in Bookmarks right at the coast of the
 								famous Semantics, large language ocean. Separated they live in
 								Bookmarks right at the coast.
@@ -172,7 +172,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-16 md:py-24 overflow-hidden">
+			<section className="bg-white py-16 md:py-24 overflow-hidden">
 				<div className="container mx-auto px-4">
 					<div className="flex flex-col md:flex-row-reverse items-center">
 						<div className="w-full md:w-1/2 mb-12 md:mb-0">
@@ -187,11 +187,11 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="w-full md:w-1/2 md:pr-12">
-							<h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-6 leading-tight">
+							<h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">
 								Long headline on two lines to turn your visitors into users and
 								achieve more
 							</h2>
-							<p className="text-xl text-gray-600 mb-8 leading-relaxed">
+							<p className="text-xl text-gray mb-8 leading-relaxed">
 								Separated they live in Bookmarks right at the coast of the
 								famous Semantics, large language ocean. Separated they live in
 								Bookmarks right at the coast.
@@ -238,11 +238,11 @@ export default function Home() {
 			<PricingSection />
 			<section className="bg-white py-20">
 				<div className="container mx-auto px-4 text-center">
-					<p className="text-blue-600 font-semibold mb-4">Tagline</p>
-					<h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-8 max-w-4xl mx-auto">
+					<p className="text-primary font-semibold mb-4">Tagline</p>
+					<h2 className="text-4xl md:text-5xl font-bold text-primary mb-8 max-w-4xl mx-auto">
 						Long headline to turn your visitors into users
 					</h2>
-					<button className="bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition duration-300">
+					<button className="bg-primary text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-secondary transition duration-300">
 						Action
 					</button>
 				</div>
