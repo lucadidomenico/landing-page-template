@@ -6,6 +6,18 @@ This project is a Next.js implementation of a landing page template based on the
 
 This landing page template showcases a modern and responsive design, implemented using Next.js for optimal performance and SEO. It serves as a great starting point for creating attractive and functional landing pages for various purposes.
 
+The template follows best practices for landing page design, ensuring proper positioning and structure of key elements:
+
+- A clear, medium-length display headline that explains the value proposition
+- A subheadline that elaborates on how the value will be delivered
+- A prominent call-to-action button with persuasive text
+- An eye-catching visual element to help users visualize the offer
+- Social proof or credibility indicators to make the offer more believable
+
+This structure helps guide visitors through the page, clearly communicating the product or service's value and encouraging them to take action. The layout is designed to be easily customizable while maintaining these core principles of effective landing page design.
+
+![screenshot](./public/screenshot.png)
+
 ## Technologies Used
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
