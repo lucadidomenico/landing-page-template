@@ -22,6 +22,8 @@ The template's layout is designed to:
 
 This structure helps guide visitors through the page, clearly communicating the product or service's value and encouraging them to take action. The layout is designed to be easily customizable while maintaining these core principles of effective landing page design.
 
+Live demo: https://landing-page-template-beryl.vercel.app/
+
 ## Technologies Used
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
