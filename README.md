@@ -4,6 +4,8 @@ This project is a Next.js implementation of a landing page template based on the
 
 ## About the Project
 
+![screenshot](./public/screenshot.png)
+
 This landing page template offers a rapid solution for building high-converting landing pages, incorporating best practices in marketing and design. Key features include:
 
 - Optimized element positioning for maximum impact
@@ -29,8 +31,6 @@ The template follows best practices for landing page design, ensuring proper pos
 - Social proof or credibility indicators to make the offer more believable
 
 This structure helps guide visitors through the page, clearly communicating the product or service's value and encouraging them to take action. The layout is designed to be easily customizable while maintaining these core principles of effective landing page design.
-
-![screenshot](./public/screenshot.png)
 
 ## Technologies Used
 
